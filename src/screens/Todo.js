@@ -65,7 +65,7 @@ export default function Todo() {
                 <SafeAreaView style={styles.taskBox}>
                   <SafeAreaView>
                     <Text>Task: {index + 1}</Text>
-                    <Text>{item}</Text>
+                    <Text style={{ maxWidth: 200, marginTop: 10 }}>{item}</Text>
                   </SafeAreaView>
                   <View
                     style={{
